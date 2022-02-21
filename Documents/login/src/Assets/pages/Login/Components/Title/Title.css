@@ -1,0 +1,9 @@
+.title-container {
+    color: hsl(219, 74%, 52%) 106, 223);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
