@@ -23,10 +23,10 @@ export class PostController {
     const data = await this.postService.getMany();
     return { data };
   }
+
   @Get(':id')
-  async getById(@Param('id', ParseIntPipe) id: number) {
-    const data = await this.postService.getById(id);
-    return { data };
+  async getOne(@Param('id', ParseIntPipe) id: object) {
+    return await this.postService.getOne(id);
   }
 
   @Post()
