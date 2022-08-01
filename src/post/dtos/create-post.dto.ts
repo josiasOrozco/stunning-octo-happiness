@@ -1,6 +1,6 @@
 import { PostCategory } from '../enums';
 import { IsArray, IsBoolean, IsEnum, IsString } from 'class-validator';
-import { EnumToString } from '../../helpers/enumToString';
+import { EnumToString } from '../../common/helpers/enumToString';
 
 export class CreatePostDto {
   @IsString()
